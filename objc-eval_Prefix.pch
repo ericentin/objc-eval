@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'objc-eval' target in the 'objc-eval' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

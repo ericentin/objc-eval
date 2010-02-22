@@ -5,4 +5,9 @@ objc-eval is ruby-like eval ("eval? what's that?!" read [this](http://blog.grayp
 
 Usage
 =====
-TBD
+Add to your project as you would any framework. Currently, only synchronous evaluation has been tested. I plan to add asynchronous evaluation at some point, because evaluation takes quite some time.
+
+Example
+=======
+`OEEvaluation *evaluation = [OEEvaluation evaluationWithCode:@"return @\"Hello World!\";" delegate:nil];
+NSLog([evaluation evaluateSynchronously]);`

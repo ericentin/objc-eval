@@ -1,0 +1,8 @@
+objc-eval
+=========
+
+objc-eval is ruby-like eval ("eval? what's that?!" read [this](http://blog.grayproductions.net/articles/eval_isnt_quite_pure_evil "eval() Isn't Quite Pure Evil")) for objective-c. Is it a good idea? I don't know. If you have to ask, it's probably not. It will, however, satisfy my (morbid) curiosity about whether or not it's possible. It carries along all the usual security concerns of any language's "eval." Make sure you trust the source of the code that is about to be compiled and executed with whatever privileges the program you used objc-eval in has.
+
+Usage
+=====
+TBD

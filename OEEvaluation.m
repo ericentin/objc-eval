@@ -96,6 +96,8 @@
     [evaluateBlock setCompletionBlock:^{
         [_delegate evaluation:self evaluatedWithResult:[_evaluator eval]];
     }];
+    
+    [evaluateBlock start];
 }
 
 - (id)evaluateSynchronously {

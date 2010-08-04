@@ -5,7 +5,7 @@ objc-eval is ruby-like eval ("eval? what's that?!" read [this](http://blog.grayp
 
 Usage
 =====
-Add to your project as you would any framework. Currently, only synchronous evaluation has been tested. I plan to add asynchronous evaluation at some point, because evaluation takes quite some time.
+Add to your project as you would any framework. You can either asynchronously evaluate with a delegate, or synchronously evaluate. Did I mention how stupid this is yet?
 
 Example
 =======
